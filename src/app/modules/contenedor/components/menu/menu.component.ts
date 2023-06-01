@@ -12,4 +12,11 @@ export class MenuComponent {
   numbers = Array(this.longitud).fill(0).map((x, i) => {
     return `Opción ${i}`;
   });
+
+  generateError()
+  {
+    let arr:number[]=[1,2,3];
+    let resul:string=arr[10].toFixed();
+    resul=resul + '1';
+  }
 }
