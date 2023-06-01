@@ -1,0 +1,15 @@
+.blockeo{
+    position: fixed;
+    top: 0;
+    height:100%;
+    width: 100%;
+    opacity: .01;
+} 
+.barra{
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    width: 100%;
+    background-color: #f4f4f4;
+    height: 7px;
+}

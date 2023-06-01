@@ -1,0 +1,60 @@
+:host {
+    display: block;
+}
+
+.bienvenido {
+    text-align: center;
+    font-size: 6em;
+    font-weight: 500;
+    color: #54565b;
+    display: flex;
+    padding: .5em;
+
+    span {
+        margin: auto;
+    }
+}
+
+
+.subcontainer {
+    position: relative;
+    max-width: 760px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+
+}
+
+.item {
+    padding: 1em;
+
+    a {
+        color: gray;
+        margin: 1em;
+        width: 120px;
+        height: 120px;
+        background-image: linear-gradient(rgba(255, 255, 255, 0.9), rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 0.85) 0%), url(http://localhost:8089/redi/logo-rojo.png);
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    p {
+        color: dimgray;
+        text-align: center;
+    }
+}
+
+
+@media (max-width:575px) {
+    .bienvenido {
+        font-size: 3.5em;
+    }
+}
+
+@media (max-width:330px) {
+    .bienvenido {
+        font-size: 2.5em;
+    }
+}

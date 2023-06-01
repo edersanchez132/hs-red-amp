@@ -1,0 +1,57 @@
+:host {
+    color: #be17045b;
+        
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    overflow: auto;
+}
+
+.titulo {
+    text-align: center;
+    font-size: 7.5em;
+}
+
+.subtitulo {
+    text-align: center;
+    font-size: 3.5em;
+    padding-top: 1em;
+    font-weight: lighter;
+    text-transform: uppercase;
+}
+
+.back {
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+
+    a {
+        opacity: .6;
+        text-transform: uppercase;
+    }
+}
+
+.cara{
+    font-size: 5em;
+    text-align: center;
+    margin-bottom: 1.5em;
+}
+
+@media(max-width:768px) {
+
+    .subtitulo {
+        font-size: 3em;
+    }
+}
+
+@media(max-width:425px) {
+
+    .subtitulo {
+        font-size: 2em;
+    }
+}

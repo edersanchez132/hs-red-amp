@@ -1,0 +1,24 @@
+<div *ngIf="errorMesage">
+    <h2>
+        <span class="icono">(｡>_<)</span>
+    </h2>
+    <h3>{{errorMesage.titulo}}</h3>
+    <div class="detalle">
+        <strong>Código: </strong>
+        <span id="codigo">{{errorMesage.codigo}}</span>
+        <p>
+            <strong>Mensaje:</strong>
+            <span>
+                {{errorMesage.mensaje}}
+            </span>
+        </p>
+        <p>Detalle:</p>
+        <p>{{detalle}}</p>
+    </div>
+    <div>
+        <a mat-button color="warn" routerLink="/">
+            <mat-icon fontIcon="home"></mat-icon>
+            Volver al inicio
+        </a>
+    </div>
+</div>

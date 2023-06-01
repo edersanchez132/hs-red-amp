@@ -1,0 +1,26 @@
+<div class="bienvenido">
+    <p> BIENVENIDO </p>
+</div>
+
+<div class="subcontainer">
+    <div class="item">
+        <a mat-stroked-button color="warn" class=" mat-elevation-z2" routerLink="/busqueda"></a>
+        <p class="titulo">Catalogos </p>
+    </div>
+    <div class="item">
+        <a mat-stroked-button color="warn" class=" mat-elevation-z2" routerLink="/encripta"></a>
+        <p class="titulo">Cuestionario </p>
+    </div>
+    <div class="item">
+        <a mat-stroked-button color="warn" class=" mat-elevation-z2" routerLink="/horizontal"></a>
+        <p class="titulo">MF-Horizontal </p>
+    </div>
+    <div class="item">
+        <a mat-stroked-button color="warn" class=" mat-elevation-z2" routerLink="/alta"></a>
+        <p class="titulo">MF-Alta </p>
+    </div>
+    <div class="item" *ngFor="let item of numbers">
+        <a mat-stroked-button color="warn" class=" mat-elevation-z2" routerLink="/unknow"></a>
+        <p class="titulo">{{item}}</p>
+    </div>
+</div>
